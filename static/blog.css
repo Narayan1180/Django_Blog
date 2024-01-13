@@ -1,0 +1,52 @@
+body{
+
+    background-color:rgb(0, 202, 209);
+    border:solid 1px black;
+    margin:10px;
+    padding:10px;
+    border-radius: 5%;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.title
+{
+color:red;
+}
+
+.content
+{
+background-color:dodgerblue;
+display:flex;
+flex-direction: column;
+text-align: left;
+border:1px solid black;
+border-radius: 5px;
+padding:5px;
+}
+
+.content:hover {
+    background-color: #fff; /* White background on hover */
+
+    font-size: 1.2em;
+    /*transition: font-size 0.3s ease, transform 0.3s ease;*/
+    font-weight:400;
+
+    font-size: 1.2em; /* Increase font size on hover */
+    transform: translateZ(20px); /* Move in the z-direction on hover */
+
+
+}
+
+.blog{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
